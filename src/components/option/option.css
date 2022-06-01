@@ -1,0 +1,28 @@
+.select {
+  border: none;
+
+  background: #fff;
+  margin-right: 15px;
+  border-right: 1px solid rgb(204, 201, 201);
+  padding: 10px 20px;
+  color: gray;
+}
+.searchOption {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+
+  border: none;
+  background: #fff;
+
+  padding: 10px 30px;
+
+  color: gray;
+}
+
+@media screen and (max-width: 470px) {
+  .select {
+    margin-right: 5px;
+    padding: 5px 5px;
+  }
+}

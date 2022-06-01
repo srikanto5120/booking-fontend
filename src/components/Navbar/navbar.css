@@ -1,0 +1,97 @@
+.navbar {
+  background-color: rgb(6, 37, 105);
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.navbarContainer {
+  display: flex;
+  width: 90%;
+
+  align-items: center;
+  justify-content: end;
+  gap: 50px;
+}
+.navbar-mobile {
+  display: flex;
+  width: 90%;
+  margin: 0;
+  flex-direction: column;
+
+  background: #ffdd00;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  z-index: 1;
+}
+
+.navbar-mobile > .navItem {
+  list-style: none;
+}
+.navItem {
+  list-style: none;
+}
+.navItem > a {
+  text-decoration: none;
+  color: gray;
+  font-size: 16px;
+}
+.navItem .active {
+  border-bottom: 2px solid #ffdd00;
+}
+.navIcon {
+  color: gray;
+  cursor: pointer;
+  padding: 10px;
+
+  background-color: #3c3c3c;
+}
+
+.bars {
+  display: none;
+  width: 50px;
+  height: 100%;
+  background-color: yellow;
+  padding: 10px;
+}
+.barIcon {
+  color: gray;
+  font-size: 30px;
+}
+.linkHr {
+  display: none;
+}
+.navInput {
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 470px) {
+  .bars {
+    display: block;
+  }
+  .navbarContainer {
+    display: none;
+    align-items: center;
+  }
+  .navbar {
+    align-items: flex-start;
+    background-color: #fff;
+  }
+  .linkHr {
+    display: block;
+  }
+  .navItem > a {
+    width: 100%;
+    display: block;
+    padding: 10px 0;
+    margin-top: 10px;
+  }
+  .navIcon2 {
+    display: none;
+  }
+}
+@media screen and (min-width: 470px) {
+  .navIcon {
+    display: none;
+  }
+}

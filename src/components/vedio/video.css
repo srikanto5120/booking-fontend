@@ -1,0 +1,72 @@
+.videoContainer {
+  background-image: url("../../images//backgroundImage.jpg");
+  background-position: center center;
+  background-size: cover;
+
+  height: 100vh;
+  width: 100%;
+  background-color: #142d4d;
+  background-blend-mode: soft-light;
+}
+
+.videoTitle {
+  display: flex;
+  justify-content: center;
+}
+.videoDesc {
+  text-align: center;
+  width: 40%;
+}
+.videoHeading {
+  color: #fff;
+  padding: 50px 0 0 0;
+}
+.videoText {
+  margin-bottom: 30px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+}
+.videoImg {
+  width: 700px;
+  position: relative;
+  left: 20%;
+  cursor: pointer;
+}
+.videoImg img {
+  width: 100%;
+  border: 1px solid red;
+  height: 100%;
+}
+.videoHeading {
+  font-size: 36px;
+  text-transform: uppercase;
+  margin: 0 0 15px 0;
+}
+.videoIcon {
+  font-size: 100px;
+  color: #fff;
+  position: absolute;
+  top: 45%;
+  left: 45%;
+}
+@media screen and (max-width: 470px) {
+  .videoContainer {
+  }
+  .videoImg {
+    width: 100%;
+    position: relative;
+    left: 0;
+  }
+  .videoDesc {
+    width: 80%;
+  }
+  .videoHeading {
+    font-size: 20px;
+  }
+  .videoIcon {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+  }
+}

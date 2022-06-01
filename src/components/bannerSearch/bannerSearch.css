@@ -1,0 +1,73 @@
+.bannerBackImage {
+  background-image: url("../../images//banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-color: #f5f5f5;
+  width: 100%;
+}
+.banner {
+  width: 100%;
+}
+.iconContainer {
+  width: 40%;
+  position: relative;
+
+  left: 10%;
+}
+.bannerSearch {
+  background-color: #ffdd00;
+  margin-bottom: 30px;
+}
+.bannerSearchText {
+  text-align: center;
+}
+
+.bannerTitle {
+  font-size: 70px;
+  color: #fff;
+}
+.bannerDesc {
+  margin-top: 10px;
+  color: rgb(129, 126, 126);
+  letter-spacing: 3px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.searchItem {
+  display: flex;
+  margin-top: 30px;
+  width: 100%;
+}
+.icon {
+  background-color: #3c3c3c;
+  padding: 10px;
+  width: 100%;
+  color: #ffdd00;
+  cursor: pointer;
+  transition: all 0.8s ease-in-out;
+}
+.active {
+  background-color: #ffdd00;
+  color: gray;
+}
+.icon:hover {
+  background-color: #ffdd00;
+  color: rgb(172, 167, 167);
+}
+
+@media screen and (max-width: 470px) {
+  .iconContainer {
+    width: 100%;
+    position: relative;
+    top: 30vh;
+    left: 0;
+  }
+  .banner {
+    margin-top: 0;
+  }
+  .bannerTitle {
+    font-size: 40px;
+  }
+}

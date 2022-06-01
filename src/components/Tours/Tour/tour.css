@@ -1,0 +1,106 @@
+.tour {
+  width: 320px;
+  cursor: pointer;
+  background: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.tourImg img {
+  width: 100%;
+  object-fit: cover;
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+}
+.tour:hover .tourImg img {
+  transform: scale(1.5);
+}
+.tourImg {
+  position: relative;
+  overflow: hidden;
+}
+
+.placeName {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: #fff;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 90px;
+}
+.tourName {
+  text-decoration: none;
+}
+.tourName:hover {
+  text-decoration: underline;
+  color: #ffdd00;
+  cursor: pointer;
+}
+.list-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.list-item {
+  width: 100%;
+  display: block;
+  color: #959595;
+  padding: 12px;
+
+  text-align: center;
+  transition: all 0.4s ease-out;
+}
+.share {
+  border: 1px solid gray;
+  border-top: 0;
+  border-bottom: 0;
+}
+.list-item:hover {
+  background: #ffdd00;
+
+  padding: 2px;
+}
+.list-icon {
+  margin-right: 10px;
+  font-size: 12px;
+}
+.tour-info {
+  text-align: center;
+}
+.usd {
+  color: #ffdd00;
+}
+.tourDetails {
+  margin: 20px 0 30px 0;
+}
+.price {
+  font-size: 24px;
+  color: #ffdd00;
+  font-weight: bold;
+  margin-right: 10px;
+}
+sub {
+  color: #959595;
+}
+.tour-info p {
+  color: #959595;
+}
+.tourBtn {
+  background: #4d4d4d;
+  padding: 8px 25px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  margin: 20px 1px;
+  transition: all 0.5s ease;
+}
+.tourBtn:hover {
+  background-color: #ffdd00;
+  color: rgb(87, 84, 84);
+}
+.bookingBtn {
+  border-radius: 20px 0 0px 20px;
+}
+.addListBtn {
+  border-radius: 0 20px 20px 0;
+}

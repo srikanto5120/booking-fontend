@@ -1,0 +1,12 @@
+.inpt {
+  width: 200px;
+  border: none;
+  padding: 5px 10px;
+  color: #545454;
+  margin-top: 5px;
+}
+.label {
+  font-size: 14px;
+  color: #545454;
+  font-weight: normal;
+}
